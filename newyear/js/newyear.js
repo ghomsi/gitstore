@@ -151,9 +151,6 @@ function celebrate()
 
 	$clock.removeClass('animated flipInX');
 	$clock.addClass('animated flipOutX');
-	var parent = document.getElementsByTagName("body");
-	var child = document.getElementById("clouds");
-	parent.removeChild(child);
 
 	clearTimeout(timeout);
 	setTimeout(function(){
